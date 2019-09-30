@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorDark">#202021</color>
+    <color name="colorLightButton">#EDECEF</color>
+    <color name="colorLightSpin">#8989EE</color>
+    <color name="LightBlue">#5052FF</color>
+    <color name="LightGrey">#BDBDEE</color>
+    <color name="DarkGrey">#606062</color>
+</resources>

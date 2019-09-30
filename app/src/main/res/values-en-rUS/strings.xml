@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Imprimante</item>
+        <item>Switch</item>
+        <item>Routeur</item>
+        <item>Serveur</item>
+        <item>Ordinateur</item>
+    </string-array>
+</resources>

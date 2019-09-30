@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <TableLayout
+            android:layout_width="310dp"
+            android:layout_height="360dp"
+            android:background="#525253"
+            android:paddingTop="20dp">
+
+        <TableRow
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:gravity="center_horizontal"
+                android:layout_margin="18dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:gravity="end"
+                    android:textColor="#EDEDEF"
+                    android:text="Nom : " />
+
+            <EditText
+                    android:id="@+id/name_r"
+                    app:backgroundTint="#06d9ff"
+                    android:hint="Nom"
+                    android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:gravity="center_horizontal"
+                android:layout_margin="18dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:gravity="end"
+                    android:textColor="#EDEDEF"
+                    android:text="Adresse : " />
+
+            <EditText
+                    android:id="@+id/adresse"
+                    android:hint="Adresse"
+                    app:backgroundTint="#06d9ff"
+                    android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:gravity="center_horizontal"
+                android:layout_margin="18dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:gravity="end"
+                    android:textColor="#EDEDEF"
+                    android:text="Type Matériel : " />
+
+            <EditText
+                    android:id="@+id/type_m"
+                    android:hint="Type Matériel"
+                    app:backgroundTint="#06d9ff"
+                    android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <Button style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/button_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="Annuler"
+                    android:textSize="20dp"
+                    android:textColor="#EDEDEF"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:background="#112688"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="20dp" android:fontFamily="@font/enriqueta"/>
+
+
+            <Button style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/button_apply"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Appliquer"
+                    android:textSize="20dp"
+
+                    android:textColor="#EDEDEF"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:background="#112688"
+                    android:paddingRight="10px"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="@font/enriqueta"/>
+
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+            android:text="Champs à saisir"
+            android:textColor="#EDEDEF"
+            android:textStyle="bold"
+            android:layout_width="115dp"
+            android:layout_height="54dp"
+            android:id="@+id/text_pop" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="156dp"
+            android:layout_marginBottom="376dp" app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CatoumatouTrue</string>
+    <string name="bouton">Client 1</string>
+    <string name="adresse">Adresse</string>
+    <string name="Complement_Adresse">Complément d\'adresse</string>
+    <string name="code_postal">Code Postal</string>
+    <string name="telephone">Téléphone</string>
+    <string name="nom">Nom</string>
+
+    <string-array name="categories">
+        <item>Imprimante</item>
+        <item>Switch</item>
+        <item>Routeur</item>
+        <item>Serveur</item>
+        <item>Ordinateur</item>
+    </string-array>
+
+</resources>
